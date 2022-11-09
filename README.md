@@ -39,5 +39,6 @@ git clone https://github.com/ahmedfahim21/Spotify-Clone/
     <li>Functional Searchbar</li>
     <li>Dynamic Playlist</li>
     <li>Use SpotifyAPI to fetch all the music</li>
+    <li>Responsiveness</li>
 </ul>
 
