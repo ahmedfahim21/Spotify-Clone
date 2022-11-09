@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Music Player.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://firebasestorage.googleapis.com/v0/b/music-app-a2d36.appspot.com/o/data%2Ffavicon-32x32.png?alt=media&token=c8685e7a-130a-4534-b7af-d6c64ba181fe">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://firebasestorage.googleapis.com/v0/b/music-app-a2d36.appspot.com/o/data%2Ffavicon-32x32.png?alt=media&token=c8685e7a-130a-4534-b7af-d6c64ba181fe">
+    <link rel="manifest" href="https://firebasestorage.googleapis.com/v0/b/music-app-a2d36.appspot.com/o/data%2Fsite.webmanifest?alt=media&token=f81bb27a-8b20-49f5-baa0-0d97bca5897f">
+    <title>Music App</title>
+</head>
+
+<body>
+<header>
+    <div class="menu_side">
+        <h1>Playlist</h1>
+        <div class="playlist">
+            <h4 class="activated"><span></span><i class="bi bi-music-note-beamed"></i>Playlist</h4>
+            <h4><span></span><i class="bi bi-music-note-beamed"></i>Last Played</h4>
+            <h4><span></span><i class="bi bi-music-note-beamed"></i>Recommended</h4> 
+        </div>
+        <div class="menu_song">
+            <li class="song_item">
+                <span>01</span>
+                <img src=" ">
+                <h5>
+                    On My Way
+                    <div class="subtitle">Alan Walker</div>
+                </h5>
+                    <i class="bi playlistplay bi-play-circle-fill" id="1" ></i>
+            </li>
+            <li class="song_item">
+                <span>02</span>
+                <img src=" ">
+                <h5>
+                    On My Way
+                    <div class="subtitle">Alan Walker</div>
+                </h5>
+                    <i class="bi playlistplay bi-play-circle-fill" id="2" ></i>
+            </li>
+            <li class="song_item">
+                <span>03</span>
+                <img src=" ">
+                <h5>
+                    On My Way
+                    <div class="subtitle">Alan Walker</div>
+                </h5>
+                    <i class="bi playlistplay bi-play-circle-fill" id="3" ></i>
+            </li>
+            <li class="song_item">
+                <span>04</span>
+                <img src=" ">
+                <h5>
+                    On My Way
+                    <div class="subtitle">Alan Walker</div>
+                </h5>
+                    <i class="bi playlistplay bi-play-circle-fill" id="4" ></i>
+            </li>
+            <li class="song_item">
+                <span>05</span>
+                <img src=" ">
+                <h5>
+                    On My Way
+                    <div class="subtitle">Alan Walker</div>
+                </h5>
+                    <i class="bi playlistplay bi-play-circle-fill" id="5" ></i>
+            </li>
+            <li class="song_item">
+                <span>06</span>
+                <img src=" ">
+                <h5>
+                    On My Way
+                    <div class="subtitle">Alan Walker</div>
+                </h5>
+                    <i class="bi playlistplay bi-play-circle-fill" id="6" ></i>
+            </li>
+            <li class="song_item">
+                <span>07</span>
+                <img src=" ">
+                <h5>
+                    On My Way
+                    <div class="subtitle">Alan Walker</div>
+                </h5>
+                    <i class="bi playlistplay bi-play-circle-fill" id="7" ></i>
+            </li>
+            <li class="song_item">
+                <span>08</span>
+                <img src=" ">
+                <h5>
+                    On My Way
+                    <div class="subtitle">Alan Walker</div>
+                </h5>
+                    <i class="bi playlistplay bi-play-circle-fill" id="8" ></i>
+            </li>
+        </div>
+    </div>
+    <div class="song_side">
+            <nav>
+                <ul>
+                    <li>Discover<span></span></li>
+                    <li>My Library</li>
+                    <li>Radio</li>
+                </ul>
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="Search Music..."
+                </div>
+                <div class="user">
+                    <img src="profilepic.jpg" title="Fahim Ahmed">
+                </div>
+            </nav>
+            <div class="content">
+                <h1>Alan Walker - Faded</h1>
+                <p>
+                    You were the shadow to my light
+                    Did you feel us
+                    Another start
+                    You fade away<br>
+                    Afraid our aim is out of sight
+                    Wanna see us
+                    Alive
+                </p>
+                <div class="buttons">
+                    <button>PLAY</button>
+                    <button>FOLLOW</button>
+                </div>
+            </div>
+            <div class="popular_song">
+                <div class="h4">
+                    <h4>Popular Songs</h4>
+                    <div class="btn_s">
+                        <i id="pop_song_left" class="bi bi-arrow-left"></i>
+                        <i id="pop_song_right" class="bi bi-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="pop_song">
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src=" " alt="">
+                            <i class="bi playlistplay bi-play-circle-fill" id="1" ></i>
+                        </div>
+                        <h5>
+                            On My Way 
+                            <div class="subtitle">Alan Walker</div>
+                        </h5>  
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src=" " alt="">
+                            <i class="bi playlistplay bi-play-circle-fill" id="2" ></i>
+                        </div>
+                        <h5>
+                            On My Way 
+                            <div class="subtitle">Alan Walker</div>
+                        </h5>  
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src=" " alt="">
+                            <i class="bi playlistplay bi-play-circle-fill" id="3" ></i>
+                        </div>
+                        <h5>
+                            On My Way 
+                            <div class="subtitle">Alan Walker</div>
+                        </h5>  
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src=" " alt="">
+                            <i class="bi playlistplay bi-play-circle-fill" id="4" ></i>
+                        </div>
+                        <h5>
+                            On My Way 
+                            <div class="subtitle">Alan Walker</div>
+                        </h5>  
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src=" " alt="">
+                            <i class="bi playlistplay bi-play-circle-fill" id="5" ></i>
+                        </div>
+                        <h5>
+                            On My Way 
+                            <div class="subtitle">Alan Walker</div>
+                        </h5>  
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src=" " alt="">
+                            <i class="bi playlistplay bi-play-circle-fill" id="6" ></i>
+                        </div>
+                        <h5>
+                            On My Way 
+                            <div class="subtitle">Alan Walker</div>
+                        </h5>  
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src=" " alt="">
+                            <i class="bi playlistplay bi-play-circle-fill" id="7" ></i>
+                        </div>
+                        <h5>
+                            On My Way 
+                            <div class="subtitle">Alan Walker</div>
+                        </h5>  
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src=" " alt="">
+                            <i class="bi playlistplay bi-play-circle-fill" id="8" ></i>
+                        </div>
+                        <h5>
+                            On My Way 
+                            <div class="subtitle">Alan Walker</div>
+                        </h5>  
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src=" " alt="">
+                            <i class="bi playlistplay bi-play-circle-fill" id="9" ></i>
+                        </div>
+                        <h5>
+                            On My Way 
+                            <div class="subtitle">Alan Walker</div>
+                        </h5>  
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src=" " alt="">
+                            <i class="bi playlistplay bi-play-circle-fill" id="10" ></i>
+                        </div>
+                        <h5>
+                            On My Way 
+                            <div class="subtitle">Alan Walker</div>
+                        </h5>  
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src=" " alt="">
+                            <i class="bi playlistplay bi-play-circle-fill" id="11" ></i>
+                        </div>
+                        <h5>
+                            On My Way 
+                            <div class="subtitle">Alan Walker</div>
+                        </h5>  
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src=" " alt="">
+                            <i class="bi playlistplay bi-play-circle-fill" id="12" ></i>
+                        </div>
+                        <h5>
+                            On My Way 
+                            <div class="subtitle">Alan Walker</div>
+                        </h5>  
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src=" " alt="">
+                            <i class="bi playlistplay bi-play-circle-fill" id="13" ></i>
+                        </div>
+                        <h5>
+                            On My Way 
+                            <div class="subtitle">Alan Walker</div>
+                        </h5>  
+                    </li>  
+                </div>
+            </div>
+            <div class="popular_artists">
+                <div class="h4">
+                    <h4>Popular Artists</h4>
+                    <div class="btn_s">
+                        <i id="pop_art_left" class="bi bi-arrow-left"></i>
+                        <i id="pop_art_right" class="bi bi-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <li>
+                        <img src="https://i1.sndcdn.com/artworks-000331665039-ur0qza-t500x500.jpg" alt="" title="Alan Walker">
+                    </li>
+                    <li>
+                        <img src="https://i.insider.com/5ac3b14a7a74af20008b45fe?width=1000&format=jpeg&auto=webp" alt="" title="Eminem">
+                    </li>
+                    <li>
+                        <img src="data:image/jpeg;base64,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" alt="" title="Justin Bieber">
+                    </li>
+                    <li>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2uUspEQKpRlnViAn60qsv27aWXvDKojiy3w&usqp=CAU" alt="" title="Taylor Swift">
+                    </li>
+                    <li>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkb9VflhAIcyou-blRXT6ZchQjhnHuFB0OEQ&usqp=CAU" alt="" title="AR Rahman">
+                    </li>
+                    <li>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfBnwfm6kPskt9DAslc8weWmHguzQpAyoW1785w5I79JVsXkT5elspidwf-JFE9AX9KT4&usqp=CAU" alt="" title="Dua Lipa">
+                    </li>
+                    <li>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMJDmImdyDns9lqxLoKR8LAXz9Mfw5dNi6cQ&usqp=CAU" alt="" title="Ed Sheeran">
+                    </li>
+                    <li>
+                        <img src="https://www.pinkvilla.com/imageresize/the_weeknd_humanitarian_award_0.jpg?width=752&format=webp&t=pvorg" alt="" title="Weeknd">
+                    </li>
+                    <li>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-4xmpmY5_oziBkdoRV9Dc3CzihC95yG7_eg&usqp=CAU" alt="" title="Drake">
+                    </li>
+                    <li>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRalvqLQXIS4ThEtNoLn13ezIrx560A1r5l_TtpDwwNc0KpqgOnuA2JeuAFD7BSxCOrNp8&usqp=CAU" alt="" title="Arijit Singh">
+                    </li><li>
+                        <img src="https://www.pinkvilla.com/imageresize/ariana-grande-dethrones-rihanna-as-top-streaming-artist-on-spotify-asks-riri-to-drop-new-music-to-reclaim-it.jpg?width=752&format=webp&t=pvorg" alt="" title="Ariana Grande">
+                    </li>
+                    
+                </div>
+            </div>
+    </div>
+    <div class="master_play">
+        <div class="wave" id="wave">
+            <div class="wave1"></div>
+            <div class="wave1"></div>
+            <div class="wave1"></div>
+        </div>
+                <img src="data/1.jpg" id="poster_master_play">
+                <h5 id="title">
+                    On My Way
+                    <div class="subtitle">Alan Walker</div>
+                </h5>
+                <div class="icon">
+                    <i class="bi bi-skip-start-fill" id="back"></i>
+                    <i class="bi bi-play-fill" id ="masterPlay"></i>
+                    <i class="bi bi-skip-end-fill" id="next"></i>
+                </div>
+                <span id="currentStart">0:00</span>
+                <div class="bar">
+                    <input type="range" id="seek" min="0" max="100">
+                    <div class="bar2" id="bar2"></div>
+                    <div class="dotter" id="dot"></div>
+                </div>
+                <span id="currentEnd">0:00</span>
+                <div class="vol">
+                    <i class="bi bi-volume-down-fill" id="vol_icon"></i>
+                    <input type="range" id="vol" min="0" value="35" max="100">
+                    <div class="vol_bar" id="bar3"></div>
+                </div>
+    </div>
+</header>
+    <script src="Music Player.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.13.0/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+          apiKey: "AIzaSyBT6QCdsFlA4_kDjUsJEnerKC7QLs538sI",
+          authDomain: "music-app-a2d36.firebaseapp.com",
+          projectId: "music-app-a2d36",
+          storageBucket: "music-app-a2d36.appspot.com",
+          messagingSenderId: "208575561241",
+          appId: "1:208575561241:web:708e7a00d7923826d4f488"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+      </script>
+    
+</body>
+
+</html>
