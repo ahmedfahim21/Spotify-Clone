@@ -18,7 +18,7 @@ If you installed git you can clone the code to your machine.
 Run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
 
 ```bash
-git clone https://github.com/ahmedfahim21/Pokedex-App
+git clone https://github.com/ahmedfahim21/Spotify-Clone/
 ```
 
 - Once the files are on your machine, open the _Spotify-Clone_ folder in [Visual Studio Code](https://code.visualstudio.com/).
